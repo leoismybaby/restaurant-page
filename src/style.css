@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(78, 39, 39);
+    color: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    
+}
+
+/* img {
+    object-fit: cover;
+    height: 500px;
+    width: 700px
+}
+
+p {
+    width: 700px
+} */
