@@ -41,7 +41,9 @@ const initialPageLoad = function() {
 
     // appendchild
     let content = document.getElementById('content')
-    content.appendChild(header)
+
+    let body = document.querySelector('body')
+    body.appendChild(header)
     header.appendChild(logo)
     header.appendChild(nav)
     nav.appendChild(tabs)
@@ -58,6 +60,9 @@ const initialPageLoad = function() {
     section2.appendChild(p2)
     section2.appendChild(container2)
     container2.appendChild(image4)
+
+// set header as first child of body
+body.insertBefore(header, body.firstChild);
 
 
 }
