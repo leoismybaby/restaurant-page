@@ -91,7 +91,7 @@ p {
 }  */
 
 /* Style for Menu tab */
-.menuContainer {
+.menuContainer, .aboutContainer {
     display: flex;
     flex-direction: column;
     border: 3px white double;
