@@ -30,8 +30,7 @@ ul {
 }
 
 li {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 25px
 }
 
 #content {
@@ -61,4 +60,48 @@ p {
   height: auto;
   object-fit: cover;
     
+}
+
+.home:hover {
+    border: 3px grey double;
+  }
+
+.about:hover {
+    border: 3px grey double;
+}
+
+.menu:hover {
+    border: 3px grey double;
+}  
+
+
+/* .home:focus {
+    
+    border: 3px grey double;
+}
+
+.about:active {
+    
+    border: 3px grey double;
+}
+
+.menu:active {
+    
+    border: 3px grey double;
+}  */
+
+/* Style for Menu tab */
+.menuContainer {
+    display: flex;
+    flex-direction: column;
+    border: 3px white double;
+    margin: 20px;
+}
+
+p {
+    padding: 30px;
+}
+
+h1 {
+    padding: 40px;
 }
