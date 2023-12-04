@@ -13,7 +13,7 @@ const loadMenu = function() {
     let drink1 = document.createElement('p')
 
     // add classes and attributes
-    menuContainer.classList.add('menuContainer')
+    menuContainer.classList.add('tab')
 
     // add text content
     appetizer.textContent = "Appetizer"
@@ -31,7 +31,7 @@ const loadMenu = function() {
     // append child
     let content = document.getElementById('content')
     content.appendChild(menuContainer)
-    menuContainer.appendChild(appetizer)
+    menuContainer.appendChild(appetizer )
     menuContainer.appendChild(app1)
     menuContainer.appendChild(app2)
     menuContainer.appendChild(app3)

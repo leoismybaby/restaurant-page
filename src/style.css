@@ -38,6 +38,11 @@ li {
     flex-direction: column;
 }
 
+.tab {
+    display: flex;
+    flex-direction: column;
+}
+
 .section {
     display: flex;
     justify-content: space-between;
@@ -74,22 +79,6 @@ p {
     border: 3px grey double;
 }  
 
-
-/* .home:focus {
-    
-    border: 3px grey double;
-}
-
-.about:active {
-    
-    border: 3px grey double;
-}
-
-.menu:active {
-    
-    border: 3px grey double;
-}  */
-
 /* Style for Menu tab */
 .menuContainer, .aboutContainer {
     display: flex;
@@ -99,9 +88,12 @@ p {
 }
 
 p {
-    padding: 30px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 h1 {
     padding: 40px;
+    flex-shrink: 0;
 }

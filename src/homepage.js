@@ -17,6 +17,7 @@ const initialPageLoad = function() {
     let p2 = document.createElement('p')
     let container2 = document.createElement('div')
     let image4 = document.createElement('img')
+    let div = document.createElement('div')
 
     //add classes and attributes
     home.classList.add('home')
@@ -30,6 +31,7 @@ const initialPageLoad = function() {
     section2.classList.add('section')
     container2.classList.add('container')
     image4.src = "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    div.classList.add('tab')
     
     // add text content
     logo.textContent = "Red Elephant"
@@ -37,7 +39,7 @@ const initialPageLoad = function() {
     menu.textContent = "Menu"
     about.textContent = "About"
     p1.textContent = "The Red Elephant offers world-class Thai cuisine by internationally celebrated chef, Pranta Srey. Comprehensive research and technical skill combine to create an authentic Thai menu that is unique in New York."
-    p2.textContent = "Join us for an experience like one other."
+    p2.textContent = "Join us for an experience like none other."
 
     // appendchild
     let content = document.getElementById('content')
@@ -50,13 +52,14 @@ const initialPageLoad = function() {
     tabs.appendChild(home)
     tabs.appendChild(menu)
     tabs.appendChild(about)
-    content.appendChild(image1)
-    content.appendChild(section1)
+    content.appendChild(div)
+    div.appendChild(image1)
+    div.appendChild(section1)
     section1.appendChild(container1)
     container1.appendChild(image2)
     section1.appendChild(p1)
-    content.appendChild(image3)
-    content.appendChild(section2)
+    div.appendChild(image3)
+    div.appendChild(section2)
     section2.appendChild(p2)
     section2.appendChild(container2)
     container2.appendChild(image4)

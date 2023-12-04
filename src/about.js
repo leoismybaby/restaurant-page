@@ -5,9 +5,9 @@ const loadAbout = function() {
     let aboutContent = document.createElement('p')
     let img = document.createElement('img')
 
-    // add attributes
+    // add attributes and classes
     img.src = "https://images.unsplash.com/photo-1571903244693-227d7733a917?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-
+    aboutContainer.classList.add('tab')
 
     // add text content
     aboutUs.textContent = "About Us"
