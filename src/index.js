@@ -8,8 +8,6 @@ import { loadHome } from "./home"
 const homeTab = document.getElementsByClassName('home')
 const menuTab = document.getElementsByClassName('menu')
 const aboutTab = document.getElementsByClassName('about')
-console.log(homeTab)
-console.log(menuTab)
 
 // functions
 let clearContent = function() {
@@ -37,9 +35,5 @@ aboutTab[0].addEventListener('click', () => {
 homeTab[0].addEventListener('click', () => {
     clearContent();
     loadHome();
-})
-
-document.addEventListener('click', function(e) {
-    console.log(e.target)
 })
 
